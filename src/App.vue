@@ -1,5 +1,5 @@
 <!-- Composition API -->
-<!-- <script setup>
+<script setup>
 import { ref } from "vue";
 
 const data = ref({
@@ -18,10 +18,10 @@ const getUser = async () => {
   data.value.gender = results[0]?.gender;
   data.value.picture = results[0]?.picture?.large;
 };
-</script> -->
+</script>
 
 <!-- Options API -->
-<script>
+<!-- <script>
 export default {
   data() {
     return {
@@ -46,7 +46,7 @@ export default {
     },
   },
 };
-</script>
+</script> -->
 
 <template>
   <main>
